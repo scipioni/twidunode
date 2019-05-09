@@ -6,8 +6,8 @@ import sys
 from setuptools import find_packages, setup
 
 requires = [
-    #'pyserial',
     'pyserial-asyncio',
+    'sanic'
 ]
 
 setup(name='twidunode',
@@ -15,8 +15,8 @@ setup(name='twidunode',
       classifiers=[
           "Programming Language :: Python",
       ],
-      author='',
-      author_email='',
+      author='Stefano Scipioni',
+      author_email='stefano.scipioni@csgalileo.org',
       url='',
       packages=find_packages(),
       include_package_data=True,
