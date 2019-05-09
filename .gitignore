@@ -1,0 +1,13 @@
+*.pyc
+*.c
+/dist
+/build
+__pycache__
+*.egg-info
+*.log
+*.swp
+*.swo
+.cache
+*.sqlite
+/lib
+.vscode
